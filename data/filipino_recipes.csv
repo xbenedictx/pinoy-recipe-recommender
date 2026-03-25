@@ -1,16 +1,17 @@
-recipe_name,ingredients,prep_time,cook_time,total_time,difficulty,meal_type,description
-Chicken Adobo,chicken,soy sauce,garlic,vinegar,bay leaves,black pepper,15,45,60,Medium,Lunch/Dinner,Classic Filipino comfort food
-Pork Adobo,pork,soy sauce,garlic,vinegar,bay leaves,black pepper,15,60,75,Medium,Lunch/Dinner,Rich and savory pork version
-Sinigang na Baboy,pork,tamarind mix,tomato,onion,radish,string beans,okra,eggplant,20,50,70,Medium,Lunch/Dinner,Sour tamarind soup
-Chicken Tinola,chicken,green papaya,ginger,garlic,onion,malunggay leaves,15,40,55,Easy,Lunch/Dinner,Hearty ginger chicken soup
-Pancit Bihon,rice noodles,pork,chicken,carrots,cabbage,soy sauce,garlic,20,25,45,Easy,Lunch/Dinner,Stir-fried rice noodles
-Lumpiang Shanghai,ground pork,carrots,onion,garlic,egg,soy sauce,lumpia wrapper,30,15,45,Medium,Snack/Appetizer,Crispy fried spring rolls
-Arroz Caldo,chicken,rice,ginger,garlic,onion,fish sauce,green onion,10,35,45,Easy,Breakfast,Chicken rice porridge
-Beef Caldereta,beef,tomato sauce,carrots,potato,bell pepper,liver spread,20,90,110,Hard,Lunch/Dinner,Spicy beef stew
-Kare-Kare,oxtail or beef,tri-tip,peanut butter,eggplant,string beans,bok choy,annatto,25,120,145,Hard,Lunch/Dinner,Peanut stew with bagoong
-Pinakbet,pork,eggplant,okra,string beans,bitter gourd,squash,tomato,garlic,15,30,45,Medium,Lunch/Dinner,Vegetable stew with bagoong
-Lechon Kawali,pork belly,water,salt,garlic,20,60,80,Medium,Lunch/Dinner,Crispy fried pork belly
-Halo-Halo,shaved ice,ube ice cream,leche flan,red beans,garbanzo beans,sago,kaong,macapuno,10,0,10,Easy,Dessert,Classic Filipino mixed dessert
-Buko Pandan,coconut meat,pandan jelly,condensed milk,all-purpose cream,15,0,15,Easy,Dessert,Refreshing coconut pandan dessert
-Filipino Spaghetti,ground beef,banana ketchup,hotdog,sugar,onion,garlic,cheese,15,30,45,Easy,Lunch/Dinner,Sweet-style spaghetti
-Bistek Tagalog,beef,soy sauce,calamansi,onion,garlic,black pepper,10,40,50,Medium,Lunch/Dinner,Beef with onion rings
+recipe_name,ingredients,description,total_time,difficulty,meal_type
+Chicken Adobo,"chicken, garlic, soy sauce, vinegar, bay leaves, peppercorns",Classic Filipino braised chicken in tangy soy-vinegar sauce,45,Easy,Lunch/Dinner
+Sinigang na Baboy,"pork, tamarind, tomato, onion, string beans, eggplant, okra",Sour pork soup loaded with vegetables,60,Medium,Lunch/Dinner
+Pancit Bihon,"noodles, chicken, carrots, cabbage, garlic, onion, soy sauce",Stir-fried rice noodles with vegetables and meat,30,Easy,Lunch/Dinner
+Halo-Halo,"ice, ube, banana, jackfruit, leche flan, red beans, coconut",Popular Filipino mixed dessert with shaved ice,15,Easy,Dessert
+Adobo Flakes,"chicken, soy sauce, vinegar, garlic",Crispy shredded chicken adobo,40,Easy,Any
+Lechon Kawali,"pork belly, garlic, soy sauce, vinegar",Crispy deep-fried pork belly,90,Medium,Dinner
+Lumpia Shanghai,"ground pork, carrots, onion, garlic, spring roll wrappers",Crispy Filipino spring rolls,45,Easy,Appetizer/Snack
+Pork Sisig,"pork cheeks, liver, onion, chili, calamansi, mayonnaise",Sizzling chopped pork with onions and chili,50,Medium,Appetizer/Lunch
+Kare-Kare,"oxtail, peanut butter, eggplant, string beans, banana blossom, bok choy",Rich peanut stew with vegetables,120,Hard,Lunch/Dinner
+Chicken Tinola,"chicken, green papaya, ginger, garlic, chili leaves, fish sauce",Ginger chicken soup with green papaya,45,Easy,Lunch/Dinner
+Arroz Caldo,"chicken, rice, ginger, garlic, onion, fish sauce",Comforting chicken rice porridge,40,Easy,Breakfast/Lunch
+Beef Caldereta,"beef, tomato sauce, carrots, potato, bell pepper, liver spread",Hearty beef stew with vegetables,90,Medium,Dinner
+Pinakbet,"eggplant, okra, bitter gourd, squash, string beans, pork, bagoong",Mixed vegetables with shrimp paste,35,Easy,Lunch/Dinner
+Ginataang Gulay,"squash, string beans, coconut milk, garlic, onion, shrimp",Vegetables in creamy coconut sauce,30,Easy,Lunch/Dinner
+Pork Barbecue,"pork, soy sauce, banana ketchup, garlic, calamansi",Sweet-savory grilled pork skewers,60,Medium,Any
+Turon,"saba banana, jackfruit, lumpia wrapper, brown sugar",Fried banana and jackfruit spring rolls,20,Easy,Dessert/Snack

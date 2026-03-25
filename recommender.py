@@ -6,15 +6,26 @@ def get_recommendations(user_ingredients=None, max_time=60, limit=8):
     df = pd.read_sql_query("SELECT * FROM recipes", conn)
     conn.close()
     
-    # Simple scoring
+    if df.empty:
+        return pd.DataFrame()
+
+    # Calculate match score properly
     if user_ingredients:
-        user_set = set([ing.strip().lower() for ing in user_ingredients])
-        df['match_score'] = df['ingredients_list'].apply(
-            lambda x: len(user_set.intersection(set(x))) if isinstance(x, list) else 0
-        )
+        user_set = {ing.strip().lower() for ing in user_ingredients}
+        
+        def calculate_match(ing_list_str):
+            if not ing_list_str or ing_list_str == '':
+                return 0
+            ing_set = {ing.strip().lower() for ing in str(ing_list_str).split(',')}
+            return len(user_set.intersection(ing_set))
+        
+        df['match_score'] = df['ingredients_list'].apply(calculate_match)
         df = df.sort_values('match_score', ascending=False)
     
-    # Filter by time
-    df = df[df['total_time'] <= max_time]
+    # Apply time filter
+    df = df[df['total_time'] <= max_time].copy()
+    
+    # Reset index for clean display
+    df = df.reset_index(drop=True)
     
     return df.head(limit)
