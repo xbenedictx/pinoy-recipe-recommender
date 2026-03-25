@@ -15,5 +15,5 @@ A simple Filipino cuisine recommendation system built with Streamlit + Pandas + 
    pip install -r requirements.txt
 
 
-2. python daattabase.py
+2. python database.py
 3. streamlit run app.py
